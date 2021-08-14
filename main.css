@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Sen&display=swap');
+
+*{
+    font-family: 'Sen', sans-serif;
+    margin: 0;
+    padding: 0;
+    font-weight: lighter;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(214, 214, 214);
+}
+
+header{
+    background: rgb(66, 66, 66);
+    position: relative;
+    width: 100%;
+    box-sizing: border-box;
+    height: 120px;
+    align-items: center;
+}
+
+.header__tittle{
+    color:#fff;
+    width: 370px;
+    text-align: end;
+    font-size: 50px;
+    margin: 25px 130px 25px 15px;
+    display: inline-block;
+}
+
+.nav{
+    display:flex;
+    align-items: end;
+    justify-content: flex-end;
+    font-size: 25px;
+    position: sticky;
+    width: 70%;
+    float: right;
+    margin: 30px;
+}
+
+.nav__link{
+    text-align: center;
+    margin: 0 70px;
+    padding: 20px 30px;
+    border-top: 4px solid red;
+    color: #fff;
+    text-decoration: none;
+    transition: .5s;
+    width: 250px;
+}
+
+.nav__link:hover{
+    letter-spacing: 2px;
+    font-size: 35px;
+    width: 300px;
+}
+
+.container{
+    max-width: 1000px;
+    width: 90%;
+    margin: 20px auto;
+}
+
+.card{
+    background: #fff;
+    border-radius: 15px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.card__thumbnail{
+    width: 600px;
+    border-radius: 15px;
+    margin-right: 20px;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.card__img{
+    width: 100%;
+}
+
+.card__title{
+    font-size: 30px;
+    font-weight: 100;
+    margin-bottom: 15px;
+}
+
+.card__link{
+    color: #000;
+    text-decoration: none;
+}
+
+.card__extract{
+    line-height: 28px;
+    color: #6D6D6D;
+    margin-bottom: 10px;
+}
+
+.btn{
+    border: none;
+    min-width: 165px;
+    height: 50px;
+    padding: 0 30px;
+    background: #000;
+    color: #fff;
+    display: inline-block;
+    border-radius: 100px;
+    text-decoration: none;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #403cc2;
+    transition: .3s ease all;
+}
+
+.btn:hover{
+    background: #1b1881;
+    text-decoration: none;
+}
+
+.btn--absolute{
+    position: absolute;
+    right: 20px;
+    bottom: 10px;
+}
+
+.btn--buy{
+    background: #7BA771;
+}
+
+.btn--buy:hover{
+    background: #437837;
+}
