@@ -1,0 +1,159 @@
+@font-face {
+    font-family: 'ITCAvantGardeStd-Md';
+    src: url('fonts/FontsFree-Net-ITCAvantGardeStdMd.ttf') format('truetype');
+}
+
+*{
+    font-family: 'ITCAvantGardeStd-Md', sans-serif;
+    color:#F2F2F2;
+}
+
+body{
+    background: #C19D53;
+    font-family: 'ITCAvantGardeStd-Md', sans-serif;
+    color:#F2F2F2;
+}
+
+p{
+    color: #F2F2F2;
+}
+
+h2{
+    color: #fff;
+}
+
+.div-img-brand{
+    width: 500px;
+}
+
+.img-brand{
+    height: 50px;
+    margin: 0;
+}
+
+.contenedor-video-fondo{
+    position: static;
+    z-index: -100;
+    width: 100%;
+}
+
+.video-fondo{
+    width: 100%;
+}
+
+.img-fondo-1{
+    text-align: center;
+    width: 100%;
+}
+
+.inicio{
+    background-image: url(bgs/background-img-1\(resized\).jpg);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+}
+
+.historia{
+    background: rgba(0, 0, 0, 0.2) url(bgs/background-img-2\(resized\).jpg);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-blend-mode: darken;
+}
+
+iframe{
+    width: 600px;
+    height: 337px !important;
+}
+
+.jugabilidad{
+    background: rgba(0, 0, 0, 0.5) url(bgs/background-img-3-edited\(resized\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left center;
+    background-blend-mode: darken;
+}
+
+.thumbnail-img{
+    width: 500px;
+}
+
+.generoRPG{
+    background: rgba(0, 0, 0, 0.7) ;
+    background-image: url(bgs/background-img-4.jpg);
+    background-position: 0% 0%;
+    background-size: 130%;
+    background-size: cover;
+    /* background-attachment: fixed; */
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+}
+
+.carousel-img{
+    width: 536px;
+    height: 785px;
+}
+
+
+@media only screen and (max-width: 991px) {
+    iframe{
+        height: 264px;
+        width: 468px;
+    }
+
+    .overview-preview{
+        height: 264px;
+        width: 468px;
+    }
+
+    .thumbnail-img{
+        height: 263px;
+        width: 468px !important;
+    }
+
+    .section-4{
+        background-size: cover;
+        background-position: center 30%;
+    }
+}
+
+@media only screen and (max-width: 579px) {
+    .img-brand{
+        height:40px;
+    }
+    .div-img-brand{
+        width: 70%;
+        display:flex;
+        justify-content: end;
+    }
+    p{
+        font-size: 10px;
+    }
+
+    la{
+        font-size: 10px;
+    }
+
+    iframe{
+        width: 290px;
+        height: 167px !important;
+    }
+
+    .iframeded-presentation{
+        width: 200px;
+        justify-content: flex-end;
+    }
+
+    .overview-preview{
+        width: 290px;
+        height: 167px;
+    }
+
+    .thumbnail-img{
+        width: 290px;
+        height: 162px;
+    }
+
+    .carousel-img{
+        width: 300px;
+        height: 439px;
+    }
+}
